@@ -4,7 +4,9 @@ An interactive web app that visualizes the **Kullback–Leibler (KL) divergence*
 2D Gaussian distributions, **P** (the original distribution) and **Q** (the tested one), in
 real time.
 
-![layout: live chart on top, interactive heatmap below](https://img.shields.io/badge/stack-React%20%2B%20Vite%20%2B%20TS-5eead4)
+![KL Distance app: live KL(P‖Q) / KL(Q‖P) chart on top, interactive 2D Gaussian density heatmap below with per-distribution controls](docs/screenshot.png)
+
+*Live KL chart up top; below, P (blue) and Q (red) as a blended density heatmap with draggable 1σ/2σ ellipse handles, and numeric controls on the right.*
 
 ## What you see
 
